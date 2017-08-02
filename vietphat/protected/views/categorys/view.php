@@ -41,7 +41,7 @@
 
 						}	
 					} else {
-						echo 'San pham dang cap nhat!';
+						echo 'アップデート中!';
 					}
 				?>
 				<!-- end div-->

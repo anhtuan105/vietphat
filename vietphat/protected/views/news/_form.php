@@ -53,7 +53,7 @@
 	</div>
 	
 	<div class="row">
-		<strong>Tin mới</strong>
+		<strong>ニュース</strong>
 		<?php echo CHtml::CheckBox('news_check',false); ?>
 	</div>
 	

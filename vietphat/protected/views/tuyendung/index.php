@@ -11,10 +11,10 @@ $this->menu=array(
 	array('label'=>'Manage Tuyendung', 'url'=>array('admin')),
 );
 ?>
-<h1><?php if(!Yii::app()->user->isGuest) { echo 'Tuyển dụng'; } ?></h1>
+<h1><?php if(!Yii::app()->user->isGuest) { echo '採用'; } ?></h1>
 <div class="view">
 	<div id="box-content1">
-	   <div id="tab-ctright" style="font-size: 18px;"><?php if(Yii::app()->user->isGuest) { echo 'Tuyển dụng'; } ?></div>
+	   <div id="tab-ctright" style="font-size: 18px;"><?php if(Yii::app()->user->isGuest) { echo '採用'; } ?></div>
 	     <div id="bg-ct-right1">
 			<div id="bg-ct-right" style="line-height:19px; font-family:Arial, Helvetica, sans-serif">
 			<p style="text-align:justify" class="MsoNormal" ><span style="font-size:14.0pt"> 
@@ -24,11 +24,11 @@ $this->menu=array(
 						echo $value->content;
 					}
 				}else{
-						echo ' Nội dung đang được cập nhật!';					
+						echo ' アップデート中!';
 					}
 				?>
 			 </p>
-			 <?php if(Yii::app()->user->isGuest) { echo CHtml::link('>> Liên hệ ngay để biết thông tin chi tiết <<',array('site/contact'),array('color' => 'green')); } ?>
+			 <?php //if(Yii::app()->user->isGuest) { echo CHtml::link('>> Liên hệ ngay để biết thông tin chi tiết <<',array('site/contact'),array('color' => 'green')); } ?>
 	        </div>
 	    </div>
 	</div>

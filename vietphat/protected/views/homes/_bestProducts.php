@@ -26,7 +26,7 @@
 							echo '</li>';
 						}
 					} else {
-						echo 'San pham dang cap nhat!';
+						echo 'アップデート中！';
 					}
 				echo '</ul>';
 			echo '</div>';
