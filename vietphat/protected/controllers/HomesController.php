@@ -27,7 +27,7 @@ class HomesController extends Controller
 		                	$newProduct[$newProduct1->id] = $product;
 		                }
 		            }
-
+                    $products = array();
 		            foreach ($hotProducts as $key => $value) {
 		            	$product = Products::model()->find('id=:product_id',array(':product_id'=>$value->product_id));
 		            	if($product) {
