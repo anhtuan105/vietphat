@@ -1,10 +1,10 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta http-equiv="Content-Type" content="charset=utf-8" />
-<meta name="Description" content="CÔNG TY S&#7842;N XU&#7844;T VÀ TH&#431;&#416;NG M&#7840;I B&#7842;O AN - Nhà phân ph&#7889;i s&#7843;n ph&#7849;m M&#7923; Ch&#361; &#273;&#7897;c qu&#7873;n, mi&#7871;n, bún khô, ph&#7903; khô,... Liên h&#7879;: 0913.507.266
+<meta name="Description" content="アップデート中！"
 ">
-<meta name="KeyWords" content="ban my chu, ban my chu, phan phoi my chu, my bac giang, m&#7923; b&#7855;c giang, m&#7923; ch&#7911; b&#7855;c giang, &#273;&#7863;c s&#7843;n m&#7923; ch&#7911;, cung c&#7845;p m&#7923; ch&#361;, mì ch&#361; s&#7841;ch, phân ph&#7889;i m&#7923; ch&#361;, công ty bán m&#7923; ch&#361;, mi chu, mi&#7871;n so, mi&#7871;n s&#7841;ch, bánh &#273;a nem, ph&#7903; khô, mien sach, bun kho, pho kho, bán bún khô, cung c&#7845;p bún khô, cung c&#7845;p ph&#7903; khô, cung c&#7845;p mi&#7871;n, phân ph&#7889;i mi&#7871;n, phân ph&#7889;i bánh &#273;a nem cho các nhà hàng,">
-<meta name="generator" content="Công ty B&#7843;o An Food">
+<meta name="KeyWords" content="アップデート中！">
+<meta name="generator" content="The world">
 
 <!-- css -->
 <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/style.css" />
@@ -56,10 +56,10 @@ setTimeout("clock()", 1000);
 <!--						//Ending hiding script from old browsers -->
 <!--						</script>-->
 <!--					</div>-->
-                    <div style="line-height: 15px;margin-left: -16px;font-size: 16px;"><strong>Email:</strong> <a href="mailto:tenmiensohuu@gmail.com" style="font-size: 15px;">tenmiensohuu@gmail.com</a></div>
+                    <div style="line-height: 15px;margin-left: -16px;font-size: 16px;">Email:<a href="mailto:tenmiensohuu@gmail.com" style="font-size: 20px;"><strong>tenmiensohuu@gmail.com</strong></a></div>
 					<div id="sale">
-	  					<p>サポート 24/7： <strong>アップデート中</strong></p>
-	  					<p>携帯：<strong>アップデート中</strong></p>
+	  					<p style="font-size: 20px">サポート 24/7： <strong>0898668988</strong></p>
+	  					<p style="font-size: 20px">携帯：<strong>0898668988</strong></p>
 	  				</div>
 				</div>
 	    	</div> 
@@ -187,8 +187,8 @@ setTimeout("clock()", 1000);
 		        	<div id="box-rig">
 		            	<div id="box-text-hot">アップデート中</div>
 		            	<div id="box-yahoo"><a class="PHstyle26" href="skype:anhtuan105"><img width="70" height="25" style="border: none;" src="<?php echo Yii::app()->request->baseUrl; ?>/images/sky.jpg"></a><div style="margin-top:-19px; margin-left:80px; color:#00CC33; text-decoration:underline">問い合わせ</div></div>
-					<div style="line-height: 15px;margin-left: -16px;font-size: 16px;"><strong>Email:</strong> <a href="mailto:tenmiensohuu@gmail.com" style="font-size: 15px;">tenmiensohuu@gmail.com</a></div>
-		                <div style="padding-top:15px;font-size: 14px;" id="box-thoigianhotro"><strong>サポート: 24/24</strong></div>
+                        <div style="line-height: 15px;margin-left: -16px;font-size: 16px;">Email: <a href="mailto:tenmiensohuu@gmail.com" style="font-size: 18px;"><strong>tenmiensohuu@gmail.com</strong></a></div>
+		                <div style="padding-top:15px;font-size: 20px;" id="box-thoigianhotro">サポート: <strong>0898668988</strong></div>
 		        	</div>
 		    	</div>
 		    </div>
@@ -283,9 +283,8 @@ setTimeout("clock()", 1000);
 <div id="footer-bg">
 	<div id="footerblank">
         <div id="footerlinks">
-			<p>
-				<h4 style="line-height: 15px;">Email: <a href="mailto:tenmiensohuu@gmail.com">tenmiensohuu@gmail.com</a></h4>
- 			</p>
+			<p><h2 style="line-height: 15px;">Email: <a href="mailto:tenmiensohuu@gmail.com"><strong>tenmiensohuu@gmail.com</strong></a></h2></p>
+            <p><h2 style="line-height: 15px;">TEL:<strong>0898668988</strong></h2></p>
  		</div>
  		<font color="#009933" size="1">
       	<div id="coppyright">
