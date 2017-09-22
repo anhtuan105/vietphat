@@ -43,7 +43,7 @@
         if(isset($newProduct)) {
             $this->renderPartial('_newProduct', array('newProduct'=>$newProduct));
         }else{
-            echo "<h1>【リリース　ブランチ】</h1>アップデート中!";
+            echo "<h1>【現在、開発環境】</h1>アップデート中!";
         } ?>
 </div>
 <!-- end san pham moi-->
@@ -56,7 +56,7 @@
         if(isset($products)) {
             $this->renderPartial('_bestProducts',array('products'=>$products));
         } else {
-            echo "<h1>【リリース　ブランチ】</h1>アップデート中!";
+            echo "<h1>【現在、開発環境】</h1>アップデート中!";
         } ?>
      <div class="clear"></div>
 </div>
@@ -73,7 +73,7 @@
             $this->renderPartial('_amthuc',array('amthucs'=>$amthucs));
 
         } else {
-            echo "<h1>【リリース　ブランチ】</h1>アップデート中!";
+            echo "<h1>【現在、開発環境】</h1>アップデート中!";
         } ?>
      <div class="clear"></div>
 </div>
