@@ -77,10 +77,10 @@ return array(
 		*/
 		// uncomment the following to use a MySQL database
 		'db'=>array(
-			'connectionString' => 'mysql:host=banhda.cu5dcsssg6td.ap-northeast-1.rds.amazonaws.com;dbname=banhda',
+			'connectionString' => 'mysql:host=localhost;dbname=banhda',
 			'emulatePrepare' => true,
-			'username' => 'awsuser_root',
-			'password' => '12345678',
+			'username' => 'root',
+			'password' => 'Anhtuan1990',
 			'charset' => 'utf8',
 		),
 		'errorHandler'=>array(
