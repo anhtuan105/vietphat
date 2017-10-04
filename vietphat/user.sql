@@ -19,6 +19,5 @@ LOCK TABLES `users` WRITE;
 UNLOCK TABLES;
 
 INSERT INTO users(id, username, password ) VALUES 
-(1, "admin", MD5("admin" )),
-(2, "user", MD5("user" )),
-(3, "odt", MD5("odt" ));
+(1, "admin","admin123456788")),
+(2, "user","admin123456788"));

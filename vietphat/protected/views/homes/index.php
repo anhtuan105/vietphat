@@ -38,12 +38,12 @@
 
 <!-- start san pham moi-->
 <div id="product-new">
-	<div id="tab-newProduct">Sản phẩm mới</div>
+	<div id="tab-newProduct">新商品</div>
         <?php
         if(isset($newProduct)) {
             $this->renderPartial('_newProduct', array('newProduct'=>$newProduct));
         }else{
-            echo "San pham dang cap nhat!";
+            echo "<h1>【リリース　ブランチ】</h1>アップデート中!";
         } ?>
 </div>
 <!-- end san pham moi-->
@@ -51,12 +51,12 @@
 <!-- start san pham noi bat-->
 <div id="product-best-sell">
     <!-- Best selling products -->
-    <div id="tab-ctright">Sản Phẩm Tiêu Biểu</div>
+    <div id="tab-ctright">商品</div>
         <?php
         if(isset($products)) {
             $this->renderPartial('_bestProducts',array('products'=>$products));
         } else {
-            echo "San pham dang cap nhat!";
+            echo "<h1>【リリース　ブランチ】</h1>アップデート中!";
         } ?>
      <div class="clear"></div>
 </div>
@@ -67,13 +67,13 @@
 <div id="product-best-sell" style="border-right: 1px solid #00A64E;border-left: 1px solid #00A64E;border-bottom: 1px solid #00A64E;">
     <!-- Best selling products -->
 
-    <div id="tab-ctright"><?php echo CHtml::link('Ẩm thực',array('amthuc/index')); ?></div>
+    <div id="tab-ctright"><?php echo CHtml::link('料理',array('amthuc/index')); ?></div>
         <?php
         if(isset($products)) {
             $this->renderPartial('_amthuc',array('amthucs'=>$amthucs));
 
         } else {
-            echo "San pham dang cap nhat!";
+            echo "<h1>【リリース　ブランチ】</h1>アップデート中!";
         } ?>
      <div class="clear"></div>
 </div>

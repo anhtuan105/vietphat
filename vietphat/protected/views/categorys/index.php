@@ -5,7 +5,7 @@ $this->menu=array(
 );
 ?>
 <div class="content-page">
-	<h1>Danh sách loại sản phẩm</h1>
+	<h1>商品リスト</h1>
 	<?php
 		echo '<div><ul>';
 				if($categories) {
@@ -31,7 +31,7 @@ $this->menu=array(
 						echo '</li>';
 					}
 				} else {
-					echo 'San pham dang cap nhat!';
+					echo 'アップデート中!';
 				}
 			echo '</ul>';
 		echo '</div>';

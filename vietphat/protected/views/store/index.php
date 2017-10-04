@@ -13,9 +13,9 @@ $this->menu=array(
 ?>
 
 
-<h1><?php if(!Yii::app()->user->isGuest) { echo 'Đại lý - khách hàng'; } ?></h1>
+<h1><?php if(!Yii::app()->user->isGuest) { echo '代理店'; } ?></h1>
 <div id="box-content1">
-   <div id="tab-ctright"><?php if(Yii::app()->user->isGuest) { echo 'Đại lý - khách hàng'; } ?></div>
+   <div id="tab-ctright"><?php if(Yii::app()->user->isGuest) { echo '代理店'; } ?></div>
      <div id="bg-ct-right1">
 		<div id="bg-ct-right" style="line-height:19px; font-family:Arial, Helvetica, sans-serif">
 		<p style="text-align:justify" class="MsoNormal" ><span style="font-size:14.0pt">
@@ -31,11 +31,11 @@ $this->menu=array(
 					$i++;
 				}
 			}else{
-					echo ' Nội dung đang được cập nhật!';					
+					echo 'アップデート中！';
 				}
 			?>
 		 </p>
-		 <?php if(Yii::app()->user->isGuest) {  echo CHtml::link('>> Liên hệ ngay để biết thông tin chi tiết <<',array('site/contact')); } ?>
+		 <?php //if(Yii::app()->user->isGuest) {  echo CHtml::link('>> Liên hệ ngay để biết thông tin chi tiết <<',array('site/contact')); } ?>
         </div>
     </div>
 </div>
