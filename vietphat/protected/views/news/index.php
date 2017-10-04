@@ -54,7 +54,7 @@ $this->menu=array(
 	<?php else: ?>
 		<div class="table-ima-home"></div>
 		<div class="table-ima-text-home">
-			<?  echo "Hiện nay, chưa có tin tức. Tin tức sẽ được cập nhật sau"; ?>
+			<?  echo "アップデート中！"; ?>
 		</div>
 	<?php endif; ?>
 	<?php //} ?>

@@ -11,7 +11,7 @@ $this->menu=array(
 ?>
 <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/css/style.css"></script>
 
-<div id="tab-ctright" style="font-size: 20px;margin-bottom: 10px;">Ẩm thực</div>
+<div id="tab-ctright" style="font-size: 20px;margin-bottom: 10px;">料理</div>
 <div class="content-page">
 <?php //if(Yii::app()->user->isGuest) { ?>	
 <div class="view">
@@ -62,7 +62,7 @@ $this->menu=array(
 	 		<?php else: ?>
 				<div class="table-ima-home"></div>
 				<div class="table-ima-text-home">
-					<?  echo "Hiện nay, chưa có tin tức. Tin tức sẽ được cập nhật sau"; ?>
+					<?  echo "アップデート中！"; ?>
 				</div>
 		<?php endif; ?>
 

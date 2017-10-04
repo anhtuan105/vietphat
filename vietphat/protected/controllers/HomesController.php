@@ -6,16 +6,16 @@ class HomesController extends Controller
 	public function actionIndex()
 	{
 		
-			if(isset($_POST['ajax'])){
-				$slideShows  = Slideshow::model()->findAll();
-		       	$images = array();
-		        if($slideShows) {
-		            foreach ($slideShows as $slideShow) {
-		            	$images[] = $slideShow->imageLink;
-		            }
-		            echo json_encode($images);
-		        }
-			}else{
+//			if(isset($_POST['ajax'])){
+//				$slideShows  = Slideshow::model()->findAll();
+//		       	$images = array();
+//		        if($slideShows) {
+//		            foreach ($slideShows as $slideShow) {
+//		            	$images[] = $slideShow->imageLink;
+//		            }
+//		            echo json_encode($images);
+//		        }
+//			}else{
 				$newProducts = NewProducts::model()->findAll();
 		        $hotProducts = HotProducts::model()->findAll(array("limit"=>16));
 		        $amthucs 	 = Amthuc::model()->findAll(array("order"=>'id DESC',"limit"=>4));
@@ -27,7 +27,7 @@ class HomesController extends Controller
 		                	$newProduct[$newProduct1->id] = $product;
 		                }
 		            }
-
+                    $products = array();
 		            foreach ($hotProducts as $key => $value) {
 		            	$product = Products::model()->find('id=:product_id',array(':product_id'=>$value->product_id));
 		            	if($product) {
@@ -42,7 +42,7 @@ class HomesController extends Controller
 		            	$this->render('index');
 		            }
 		        }
-		     }
+//		     }
 	
 	}
 	
